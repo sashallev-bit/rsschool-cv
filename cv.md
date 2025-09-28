@@ -1,4 +1,4 @@
-# Sasha Rogallev
+# Sasha Rogalleva
 
 ## Contacts
 + Email: sasha.rogallev@gmail.com
