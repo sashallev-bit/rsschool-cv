@@ -13,10 +13,16 @@ body {
 
 * {
   box-sizing: border-box;
+  margin: 0;
 }
 
 header, footer, .dark {
     background-color: rgb(193, 166, 132);
+}
+
+h2 {
+    font-size: 32px;
+    margin: 0;
 }
 
 .container {
@@ -67,9 +73,29 @@ header, footer, .dark {
     font-size: 64px;
 }
 
-footer .container
+#experience .container {
+    row-gap: 1em;
+}
+
+code {
+  display: block; 
+  border-radius: 1em;
+  padding: 1em; 
+  margin-top: 8px;
+  white-space: pre-wrap;
+  word-break: break-word;
+  background: rgb(243, 238, 231); 
+}
+
+footer .container {
+    flex-direction: row;
+    justify-content: space-between;
+}
 
 .school-link {
+    display: block;
+    height: 1em ;
+    aspect-ratio: 4/1;
     background-image: url(./assets/rs-school-logo.svg);
     background-repeat: no-repeat;
 
