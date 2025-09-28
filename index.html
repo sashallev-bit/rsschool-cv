@@ -4,93 +4,109 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>cv</title>
-    <link rel="stylesheet" href="">
-    <link rel="stylesheet" href="">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,regular,500,600,700,800,900">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
-<header>
-    <ul>
+<header class="dark">
+    <ul class="">
         <li>
-            <a href=""></a></li>
-        <li>
-            <a href=""></a>
+            <a href="#contacts">Contacts</a>
         </li>
         <li>
-            <a href="">
-
-            </a>
+            <a href="#about">About me</a>
         </li>
         <li>
-            <a href=""></a>
+            <a href="#skills">Skills</a>
         </li>
         <li>
-            <a href=""></a>
+            <a href="#code">Code</a>
+        </li>        
+        <li>
+            <a href="#experience">Experience</a>
         </li>
         <li>
-            <a href=""></a>
+            <a href="#education">Education</a>
+        </li>
+        <li>
+            <a href="#english">English</a>
         </li>
     </ul>
 </header>
 <main>
     <section>
-        <div>
-            <img src="" alt="">
-            <h1></h1>
+        <div class="container">
+            <img src="./assets/avatar.png" alt="">
+            <h1>Sasha Rogalleva</h1>
         </div>        
     </section>
-    <section id="">
-        <div>
-        <h2></h2>
+    <section id="contacts">
+        <div class="container">
+        <h2>Contacts</h2>
             <ul>
-                <li></li>
-                <li></li>
+                <li>Email: sasha.rogallev@gmail.com</li>
+                <li>GitHub: https://github.com/sashallev-bit</li>
             </ul>
         </div>
     </section>
-    <section id="">
-        <div>
-        <h2></h2>
-    </div>
-    </section>
-    <section id="">
-        <div>
-        <h2></h2>
-        <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
+    <section class="dark" id="about">
+        <div class="container">
+            <h2>About me</h2>
+            <p>My first career was in accounting and economic management, 
+                where I advanced from entry to leadership position. 
+                Currently, I freelance in this field, while transitioning into a career in IT.</p>
         </div>
     </section>
-    <section id="">
-        <div>
-        <h2></h2>
-        <h5></h5>
-        <h6></h6>
-        <p></p>
-        <p></p>
-        <p></p>
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML, CSS, JavaScript, Kotlin, SQL</li>
+                <li>SOLID, MVVM, MVI</li>
+                <li>Git(GitHub), Figma, VSCode, Android Studio</li>
+            </ul>
         </div>
     </section>
-    <section id="">
-        <div>
-            <h2></h2>
-            <p></p>
+    <section class="dark" id="code">
+        <div class="container">
+            <h2>Code Example</h2>
+            <p>Codewars KATA "String ends with?": Complete the solution so that it returns true 
+                if the first argument(string) passed in ends with the 2nd argument 
+                (also a string)</p>
+            <code>function solution(str, ending) {
+                     return str.endsWith(ending);
+                    }</code>
         </div>
     </section>
-    <section id="">
-        <div>
-            <h2></h2>
-            <p></p>
+    <section id="experience">
+        <div class="container">
+            <h2>Work Experience</h2>
+            <h5>Head of Financial Department / Freelancer</h5>
+            <h6>Medium-sized companies / Self-employed | – Present</h6>
+            <p>Managed financial and economic processes, leading teams and projects.</p>
+            <p>Gained hands-on experience developing small local projects, primarily 1C extensions.</p>
+            <p>Transitioning into IT, applying analytical and management skills while building technical expertise.</p>
+        </div>
+    </section>
+    <section class="dark" id="education">
+        <div class="container">
+            <h2>Education</h2>
+            <p>Institute of Economics and Social Technologies</p>
+        </div>
+    </section>
+    <section id="english">
+        <div class="container">
+            <h2>English Language</h2>
+            <p>Intermediate +</p>
         </div>
     </section>
 </main>
 <footer>
-    <div>
-        <span></span>
-        <a href=""></a>
-        <a href=""></a>
+    <div class="container">
+        <span>2025</span>
+        <a class="school-link" href="https://rs.school/courses/short-track">RS School</a>
+        <a href="https://github.com/sashallev-bit">GitHub</a>
     </div>
 </footer>
 </body>
