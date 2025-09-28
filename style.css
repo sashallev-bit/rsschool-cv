@@ -4,7 +4,8 @@ html {
 
 :root {
     background-color: rgb(245, 223, 196);
-    color: rgb(97, 77, 62);
+    --color: rgb(97, 77, 62);
+    color: var(--color)
 }
 body {
     font-family: 'Roboto', sans-serif;
@@ -23,6 +24,7 @@ header, footer, .dark {
 h2 {
     font-size: 32px;
     margin: 0;
+    margin-bottom: 0.5em;
 }
 
 .container {
@@ -66,6 +68,8 @@ h2 {
 #title img {
     display: block;
     width: 25%;
+    height: auto;
+    border-radius: 1em;
 }
 
 #title h1 {
@@ -73,8 +77,25 @@ h2 {
     font-size: 64px;
 }
 
+#contacts a {
+  color: var(--color);
+  text-decoration: none;
+  transition: all 0.3s ease;
+
+}
+
+#contacts a:hover {
+    text-decoration: underline;
+}
+
+.skills-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
 #experience .container {
-    row-gap: 1em;
+    row-gap: 0.5em;
 }
 
 code {
@@ -98,5 +119,6 @@ footer .container {
     aspect-ratio: 4/1;
     background-image: url(./assets/rs-school-logo.svg);
     background-repeat: no-repeat;
+    background-position: center;
 
 }
