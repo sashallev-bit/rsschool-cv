@@ -1,0 +1,76 @@
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    background-color: rgb(245, 223, 196);
+    color: rgb(97, 77, 62);
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+header, footer, .dark {
+    background-color: rgb(193, 166, 132);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1440px;
+    width: 75%;
+    margin: 0 auto;
+    padding: 28px 0;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  column-gap: 4px;
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.nav-item a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 16px;
+  border-radius: 4px;
+  margin: 4px auto;
+  transition: all 0.3s ease;
+}
+
+.nav-item a:hover {
+  background-color: blanchedalmond;
+}
+
+#title .container {
+    flex-direction: row;
+}
+
+#title img {
+    display: block;
+    width: 25%;
+}
+
+#title h1 {
+    margin: auto;
+    font-size: 64px;
+}
+
+footer .container
+
+.school-link {
+    background-image: url(./assets/rs-school-logo.svg);
+    background-repeat: no-repeat;
+
+}

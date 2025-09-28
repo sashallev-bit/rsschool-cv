@@ -5,43 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>cv</title>
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,regular,500,600,700,800,900">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:wght@100..900&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
 <header class="dark">
-    <ul class="">
-        <li>
+    <ul class="nav-list">
+        <li class="nav-item">
             <a href="#contacts">Contacts</a>
         </li>
-        <li>
+        <li class="nav-item">
             <a href="#about">About me</a>
         </li>
-        <li>
+        <li class="nav-item">
             <a href="#skills">Skills</a>
         </li>
-        <li>
+        <li class="nav-item">
             <a href="#code">Code</a>
         </li>        
-        <li>
+        <li class="nav-item">
             <a href="#experience">Experience</a>
         </li>
-        <li>
+        <li class="nav-item">
             <a href="#education">Education</a>
         </li>
-        <li>
+        <li class="nav-item">
             <a href="#english">English</a>
         </li>
     </ul>
 </header>
 <main>
-    <section>
+    <section id="title">
         <div class="container">
-            <img src="./assets/avatar.png" alt="">
+            <img src="./assets/avatar.png" alt="image">
             <h1>Sasha Rogalleva</h1>
         </div>        
     </section>
-    <section id="contacts">
+    <section class="dark" id="contacts">
         <div class="container">
         <h2>Contacts</h2>
             <ul>
@@ -50,7 +52,7 @@
             </ul>
         </div>
     </section>
-    <section class="dark" id="about">
+    <section id="about">
         <div class="container">
             <h2>About me</h2>
             <p>My first career was in accounting and economic management, 
@@ -58,7 +60,7 @@
                 Currently, I freelance in this field, while transitioning into a career in IT.</p>
         </div>
     </section>
-    <section id="skills">
+    <section class="dark" id="skills">
         <div class="container">
             <h2>Skills</h2>
             <ul>
@@ -68,7 +70,7 @@
             </ul>
         </div>
     </section>
-    <section class="dark" id="code">
+    <section id="code">
         <div class="container">
             <h2>Code Example</h2>
             <p>Codewars KATA "String ends with?": Complete the solution so that it returns true 
@@ -79,7 +81,7 @@
                     }</code>
         </div>
     </section>
-    <section id="experience">
+    <section class="dark" id="experience">
         <div class="container">
             <h2>Work Experience</h2>
             <h5>Head of Financial Department / Freelancer</h5>
@@ -87,6 +89,12 @@
             <p>Managed financial and economic processes, leading teams and projects.</p>
             <p>Gained hands-on experience developing small local projects, primarily 1C extensions.</p>
             <p>Transitioning into IT, applying analytical and management skills while building technical expertise.</p>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <a href="https://sashallev-bit.github.io/rsschool-cv">My cv</a>
         </div>
     </section>
     <section class="dark" id="education">
